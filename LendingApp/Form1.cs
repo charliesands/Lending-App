@@ -53,5 +53,15 @@ namespace LendingApp
             bank += bob.GiveCash(5);
             UpdateForm();
         }
+
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
