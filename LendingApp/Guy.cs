@@ -21,7 +21,7 @@ namespace LendingApp
             }
             else
             {
-                MessageBox.Show("I don't have enough cash to give you " + amount, Name + " says...");
+                MessageBox.Show("I don't have enough cash to give you $" + amount, Name + " says...");
                 return 0;
             }
         }
