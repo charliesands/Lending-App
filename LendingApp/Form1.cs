@@ -27,13 +27,9 @@ namespace LendingApp
         {
             InitializeComponent();
 
-            bob = new Guy();
-            bob.Name = "Bob";
-            bob.Cash = 100;
+            bob = new Guy() { Cash = 100, Name = "Bob" };
 
-            joe = new Guy();
-            joe.Name = "Joe";
-            joe.Cash = 50;
+            joe = new Guy() { Cash = 50, Name = "Joe" };
 
             UpdateForm();
 
