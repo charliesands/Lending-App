@@ -12,9 +12,18 @@ namespace LendingApp
 {
     public partial class Form1 : Form
     {
+        Guy joe;
+        Guy bob;
+        int bank = 100;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
